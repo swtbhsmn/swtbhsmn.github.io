@@ -1,0 +1,138 @@
+*{
+  scroll-behavior: smooth;
+  margin:0px;
+  padding: 0px;
+  outline: none !important;
+}
+body {
+  margin: 0;
+  font-family: 'Fira Code VF', monospace;
+  font-variant-ligatures: contextual;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.medium { font-weight: 500; }
+.semibold { font-weight: 600; }
+.bold { font-weight: 700; font-size: calc(30px + 2vmin);}
+.variable { font-family: 'Fira Code VF'; font-variation-settings: 'wght' 400; }
+
+
+
+
+section{
+  width: 100%;
+  min-height: 100vh;
+}
+.divider{
+  padding: 10px;
+}
+
+header{
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header b{
+  font-family: 'Dancing Script', cursive;
+  font-size: calc(20px + 2vmin);
+ 
+}
+.image-holder{
+  position: relative;
+  max-width: 350px;
+  height: auto;
+  overflow: hidden;
+  transition: 1s linear;
+}
+.image-h1{
+  position: relative;
+  max-width: 350px;
+  height: auto;
+  padding: 2.5rem;
+  
+}
+
+.text-discription{
+  max-width: 300px;
+  padding: 0rem 2.5rem 2.5rem 2.5rem;
+  text-align: justify;
+
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#section-1{
+background-color: rgba(244, 246, 250, 0);
+
+
+}
+
+.s1-container{
+display: flex;
+flex-direction: row;
+min-height: calc(100vh - 30vh);
+width: 100%;
+justify-content: center;
+align-items: center;
+
+
+}
+@media (max-width:640px) {
+  .s1-container{
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: calc(100vh - 40vh);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ 
+    }
+    .image-holder{
+      max-width: 300px;
+      height: auto;
+   
+    }
+    .text-discription h1{
+      text-align:center;
+    }
+   
+}
+
+.backdrop{
+  
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height:  100%;
+  background: rgba(158, 159, 160, 0.5);
+
+}
+.show-backdrop{
+  left: 0;
+  transition: 1s linear;
+}
+
+.hide-backdrop{
+  left: -100%;
+  transition: 1s linear;
+}
+
+#section-2{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 219, 224);
+}
