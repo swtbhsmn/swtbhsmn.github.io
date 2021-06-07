@@ -1,0 +1,14 @@
+*{
+    scroll-behavior: smooth;
+    margin:0px;
+    padding: 0px;
+    outline: none !important;
+  }
+  body {
+    margin: 0;
+    font-family: 'Fira Code VF', monospace;
+    font-variant-ligatures: contextual;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  }

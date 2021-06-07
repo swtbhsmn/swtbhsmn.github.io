@@ -1,0 +1,55 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(247, 243, 243);
+    overflow-x: hidden;
+    transition: .5s linear;
+    padding-top: 60px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  }
+  
+  .sidenav a {
+  
+    text-decoration: none;
+    font-size: calc(5px + 2vmin);
+    color: #030303;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .sidenav a:hover {
+    color: #4b76c5;
+  }
+  
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#closebtn{
+  text-decoration: none;
+  font-size: 40px;
+  color: #030303;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+  padding: 10px;
+}
