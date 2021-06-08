@@ -5,7 +5,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(247, 243, 243);
+    background: rgb(148, 148, 185);
     overflow-x: hidden;
     transition: .5s linear;
     padding-top: 60px;
@@ -22,15 +22,18 @@
   
     text-decoration: none;
     font-size: calc(5px + 2vmin);
-    color: #030303;
+    color: #fff;
     display: block;
     transition: 0.3s;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
+   
+
   }
   
   .sidenav a:hover {
-    color: #4b76c5;
+    color: #2c2c2c !important;
   }
   
 .closebtn {
@@ -40,16 +43,17 @@
     margin-left: 50px;
   }
   
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 #closebtn{
   text-decoration: none;
   font-size: 40px;
-  color: #030303;
+  color: #FFF;
   display: block;
   transition: 0.3s;
   text-align: center;
   padding: 10px;
+  background: rgb(148, 148, 185);
 }

@@ -65,17 +65,19 @@ function setLink() {
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.body.style.backgroundColor = "white";
 }
 
 function homeRouteChange(){
-    window.location.href='/'
+    window.location.replace(`/`)
 }
 function routeChange(){
 
-    window.location.href='/src/views/'
+    window.location.replace('/src/views/');
   
 }
