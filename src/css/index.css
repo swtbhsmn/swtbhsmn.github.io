@@ -12,3 +12,41 @@
     -moz-osx-font-smoothing: grayscale;
   
   }
+
+  .input-container{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input-container>div{
+  width: 20.00%;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+}
+.input-container>div>input{
+  min-width: 200px;
+}
+.input-container>div>code{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: calc(5px + 2vmin);
+
+}
+.section-1 h2{
+text-align: center;
+margin-top: 80px;
+margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px){
+  .input-container>div{
+  min-width: 200px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  }
+}
+
