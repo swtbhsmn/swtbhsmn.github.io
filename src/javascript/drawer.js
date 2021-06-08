@@ -65,11 +65,12 @@ function setLink() {
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.left = "0px";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.left = "-250px";
     document.body.style.backgroundColor = "white";
 }
 
