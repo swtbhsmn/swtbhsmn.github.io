@@ -26,6 +26,7 @@ export default function Header({ toggleDrawer, open, colorMode, handleItemSearch
                     sx={{
                         marginRight: '36px',
                         ...(open && { display: 'none' }),
+                        display:{md:"none"}
                     }}
                 >
                     <MenuIcon />
